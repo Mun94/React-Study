@@ -12,9 +12,6 @@ const AuthContext = createContext({
 
 export const AuthContextProvider = ({ children }: AuthProps) => {
   const auth = getAuth(app);
-
-  console.log(auth)
-
   const [currentUser, setCurrentUser] = useState<User | null>(null);
 
   useEffect(() => {
