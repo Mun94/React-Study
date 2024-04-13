@@ -1,0 +1,18 @@
+:global .global-something {
+  font-weight: 800;
+  border: 10px solid red;
+}
+
+.pa-wrapper {
+  text-align: center;
+  background: green;
+  padding: 15px;
+
+  &--white {
+    color: black;
+  }
+
+  &--black {
+    color: white;
+  }
+}
