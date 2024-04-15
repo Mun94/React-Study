@@ -1,10 +1,11 @@
-import './App.css';
+
+import Sidebar from './sidebar'
 
 function App() {
   return (
-    <div className="App">
-      test
-    </div>
+    <>
+      <Sidebar />
+    </>
   );
 }
 
